@@ -12,6 +12,12 @@
 		77947D9C22578CDC004FBAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77947D9A22578CDC004FBAC6 /* Main.storyboard */; };
 		77947D9E22578CDD004FBAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77947D9D22578CDD004FBAC6 /* Assets.xcassets */; };
 		77947DA122578CDD004FBAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77947D9F22578CDD004FBAC6 /* LaunchScreen.storyboard */; };
+		77947FAA22578D0C004FBAC6 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 77947F0822578D0B004FBAC6 /* aki.png */; };
+		77947FAB22578D0C004FBAC6 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77947F0922578D0B004FBAC6 /* natsu.mp3 */; };
+		77947FAC22578D0C004FBAC6 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77947F0A22578D0B004FBAC6 /* ame.mp3 */; };
+		77947FAD22578D0C004FBAC6 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 77947F0B22578D0B004FBAC6 /* natsu.png */; };
+		77947FAE22578D0C004FBAC6 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 77947F0C22578D0B004FBAC6 /* ame.png */; };
+		77947FAF22578D0C004FBAC6 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77947F0D22578D0B004FBAC6 /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		77947D9D22578CDD004FBAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77947DA022578CDD004FBAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77947DA222578CDD004FBAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77947F0822578D0B004FBAC6 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		77947F0922578D0B004FBAC6 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		77947F0A22578D0B004FBAC6 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		77947F0B22578D0B004FBAC6 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		77947F0C22578D0B004FBAC6 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		77947F0D22578D0B004FBAC6 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		77947D9522578CDC004FBAC6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				77947DA822578D0B004FBAC6 /* Music素材 */,
 				77947D9622578CDC004FBAC6 /* AppDelegate.swift */,
 				77947D9822578CDC004FBAC6 /* ViewController.swift */,
 				77947D9A22578CDC004FBAC6 /* Main.storyboard */,
@@ -62,6 +75,20 @@
 				77947DA222578CDD004FBAC6 /* Info.plist */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		77947DA822578D0B004FBAC6 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				77947F0822578D0B004FBAC6 /* aki.png */,
+				77947F0922578D0B004FBAC6 /* natsu.mp3 */,
+				77947F0A22578D0B004FBAC6 /* ame.mp3 */,
+				77947F0B22578D0B004FBAC6 /* natsu.png */,
+				77947F0C22578D0B004FBAC6 /* ame.png */,
+				77947F0D22578D0B004FBAC6 /* aki.mp3 */,
+			);
+			name = "Music素材";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +151,12 @@
 			files = (
 				77947DA122578CDD004FBAC6 /* LaunchScreen.storyboard in Resources */,
 				77947D9E22578CDD004FBAC6 /* Assets.xcassets in Resources */,
+				77947FAE22578D0C004FBAC6 /* ame.png in Resources */,
+				77947FAA22578D0C004FBAC6 /* aki.png in Resources */,
+				77947FAD22578D0C004FBAC6 /* natsu.png in Resources */,
+				77947FAC22578D0C004FBAC6 /* ame.mp3 in Resources */,
+				77947FAB22578D0C004FBAC6 /* natsu.mp3 in Resources */,
+				77947FAF22578D0C004FBAC6 /* aki.mp3 in Resources */,
 				77947D9C22578CDC004FBAC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
